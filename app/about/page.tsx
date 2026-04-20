@@ -73,7 +73,7 @@ export default function AboutPage() {
                 Red Card Thrift started as a school project. Three friends looked around and noticed the same problem — sports equipment is expensive, and a lot of good gear just sits in garages collecting dust after one season.
               </p>
               <p className="text-white/60 leading-relaxed">
-                So they built a solution. They find used gear, clean it up, inspect it personally, and sell it at prices that actually make sense. Every kid should be able to play, no matter what their parents make. That's the whole point.
+                So they built a solution. They find used gear, clean it up, inspect it personally, and sell it at prices that actually make sense. Every kid should be able to play, no matter what! That's the whole point.
               </p>
             </div>
             <div className="bg-navy-card border border-navy-border p-8">
