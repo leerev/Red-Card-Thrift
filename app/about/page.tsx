@@ -16,22 +16,6 @@ const founders = [
     bio: "Hudson is the face of Red Card Thrift. He handles everything you see — the brand, the marketing, the message. A soccer player at heart, Hudson doesn't see any of it as work. It's just fun. He came up with the idea and hasn't slowed down since.",
     fact: "Loves soccer · Work is fun, not work",
   },
-  {
-    photo: "/Roque.jpg",
-    name: "ROQUE HENDRICKSON",
-    role: "OPERATIONS & SALES",
-    emoji: "🏆",
-    bio: "Roque keeps the business moving. He's a natural at ops and sales, and a sports lover through and through. That's what makes him the kind of teammate and business partner you actually want in your corner.",
-    fact: "Loves all sports · Great supporter on and off the field",
-  },
-  {
-    photo: "/Henry.jpg",
-    name: "HENRY LOEWEN",
-    role: "FINANCE",
-    emoji: "🏈",
-    bio: "Henry handles the money. Every dollar that comes in or goes out goes through him, and he wouldn't have it any other way. Gifted in math, Henry makes sure Red Card Thrift stays profitable and priced right. Off the books, he's a football guy.",
-    fact: "Gifted in math · Football fan",
-  },
 ];
 
 export default function AboutPage() {
