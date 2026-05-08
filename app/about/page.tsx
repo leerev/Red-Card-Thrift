@@ -22,7 +22,7 @@ const founders = [
     name: "NOAH WEINER",
     role: "OPERATIONS & FULFILLMENT",
     emoji: "🧹",
-    bio: "Hi-ya, I'm Noah, yeah, Hudson's little brother. My job is to keep Hudson in the loop when customers want to buy something, and overall helping out where I can, making sure every order gets to the right person. I'm basically Hudson and Roque's right hand man, and I'm good at it.",
+    bio: "Hi-ya, I'm Noah, yeah, Hudson's little brother. My job is to keep Hudson in the loop when customers want to buy something, and overall helping out where I can, making sure every order gets to the right person. I'm basically Hudson's right-hand man, and I'm good at it.",
     fact: "Loves cleaning · Refurbishing gear is my jam",
   },
 ];
