@@ -15,19 +15,17 @@ export default function HomePage() {
         {/* ── Hero ────────────────────────────────────────────── */}
         <section className="bg-navy px-6 lg:px-16 py-20 min-h-[calc(100vh-64px)] flex items-center">
           <div className="max-w-7xl mx-auto w-full space-y-10">
-
             {/* Top row: heading + logo */}
             <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-12 items-center">
               <div className="space-y-8">
                 <h1 className="font-heading font-bold text-7xl md:text-8xl lg:text-9xl uppercase leading-none tracking-tight">
                   GET BACK
                   <br />
-                  IN THE{" "}
-                  <span className="text-brand-red">GAME</span>
+                  IN THE <span className="text-brand-red">GAME</span>
                 </h1>
                 <p className="text-white/65 text-lg max-w-md leading-relaxed">
-                  We find used sports equipment, clean it up, and sell it at fair
-                  prices — so every kid can play, no matter what.
+                  We find used sports equipment, clean it up, and sell it at
+                  fair prices — so every kid can play, no matter what.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Link
@@ -102,14 +100,13 @@ export default function HomePage() {
                   PELÉ SAID IT BEST
                 </p>
                 <blockquote className="font-heading font-medium text-xl leading-snug text-white">
-                  "Success is no accident."
+                  &ldquo;Success is no accident.&rdquo;
                 </blockquote>
                 <cite className="block mt-3 font-heading text-sm tracking-widest text-brand-red not-italic">
                   — PELÉ
                 </cite>
               </div>
             </div>
-
           </div>
         </section>
 

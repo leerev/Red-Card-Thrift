@@ -30,12 +30,21 @@ export function ContactForm() {
     return (
       <div className="flex flex-col items-center justify-center py-12 gap-4 text-center">
         <div className="text-4xl">✓</div>
-        <p className="font-heading font-bold text-xl tracking-widest">MESSAGE READY</p>
+        <p className="font-heading font-bold text-xl tracking-widest">
+          MESSAGE READY
+        </p>
         <p className="text-white/50 text-sm max-w-xs">
-          Your email app opened with everything filled in. Just hit send and we'll get back to you within 24 hours.
+          Your email app opened with everything filled in. Just hit send and
+          we&apos;ll get back to you within 24 hours.
         </p>
         <button
-          onClick={() => { setName(""); setEmail(""); setPhone(""); setNotes(""); setSent(false); }}
+          onClick={() => {
+            setName("");
+            setEmail("");
+            setPhone("");
+            setNotes("");
+            setSent(false);
+          }}
           className="mt-2 font-heading text-xs tracking-widest text-white/30 hover:text-white transition-colors"
         >
           SEND ANOTHER
@@ -46,7 +55,10 @@ export function ContactForm() {
 
   return (
     <form
-      onSubmit={(e) => { e.preventDefault(); handleSend(); }}
+      onSubmit={(e) => {
+        e.preventDefault();
+        handleSend();
+      }}
       className="flex flex-col gap-5"
     >
       {/* Name + Email row */}
@@ -82,7 +94,10 @@ export function ContactForm() {
       {/* Phone */}
       <div className="flex flex-col gap-2">
         <label className="font-heading text-xs tracking-widest text-white/40">
-          PHONE <span className="text-white/20 font-normal normal-case tracking-normal text-[11px]">(optional)</span>
+          PHONE{" "}
+          <span className="text-white/20 font-normal normal-case tracking-normal text-[11px]">
+            (optional)
+          </span>
         </label>
         <input
           type="tel"

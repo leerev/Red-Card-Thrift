@@ -4,7 +4,8 @@ import Footer from "../components/Footer";
 
 export const metadata = {
   title: "About Us — Red Card Thrift",
-  description: "Three 10-year-olds from Aurora, Colorado who turned a class project into a real business.",
+  description:
+    "Three 10-year-olds from Aurora, Colorado who turned a class project into a real business.",
 };
 
 const founders = [
@@ -15,6 +16,14 @@ const founders = [
     emoji: "⚽",
     bio: "Hudson is the face of Red Card Thrift. He handles everything you see — the brand, the marketing, the message. A soccer player at heart, Hudson doesn't see any of it as work. It's just fun. He came up with the idea and hasn't slowed down since.",
     fact: "Loves soccer · Work is fun, not work",
+  },
+  {
+    photo: "/Noah2.jpg",
+    name: "NOAH WEINER",
+    role: "OPERATIONS & FULFILLMENT",
+    emoji: "🧹",
+    bio: "Hi-ya, I'm Noah, yeah, Hudson's little brother. My job is to keep Hudson in the loop when customers want to buy something, and overall helping out where I can, making sure every order gets to the right person. I'm basically Hudson and Roque's right hand man, and I'm good at it.",
+    fact: "Loves cleaning · Refurbishing gear is my jam",
   },
 ];
 
@@ -34,7 +43,8 @@ export default function AboutPage() {
             </h1>
             <blockquote className="border-l-4 border-brand-red pl-6 max-w-2xl">
               <p className="font-heading font-medium text-2xl leading-snug italic">
-                "If we're doing this now, just imagine where we'll be in a few years."
+                &ldquo;If we&rsquo;re doing this now, just imagine where
+                we&rsquo;ll be in a few years.&rdquo;
               </p>
               <cite className="block mt-3 font-heading text-xs tracking-widest text-brand-red not-italic">
                 — HUDSON WEINER
@@ -54,10 +64,16 @@ export default function AboutPage() {
                 A CLASS PROJECT THAT GOT REAL
               </h2>
               <p className="text-white/60 leading-relaxed mb-4">
-                Red Card Thrift started as a school project. Three friends looked around and noticed the same problem — sports equipment is expensive, and a lot of good gear just sits in garages collecting dust after one season.
+                Red Card Thrift started as a school project. Three friends
+                looked around and noticed the same problem — sports equipment is
+                expensive, and a lot of good gear just sits in garages
+                collecting dust after one season.
               </p>
               <p className="text-white/60 leading-relaxed">
-                So they built a solution. They find used gear, clean it up, inspect it personally, and sell it at prices that actually make sense. Every kid should be able to play, no matter what! That's the whole point.
+                So they built a solution. They find used gear, clean it up,
+                inspect it personally, and sell it at prices that actually make
+                sense. Every kid should be able to play, no matter what!
+                That&apos;s the whole point.
               </p>
             </div>
             <div className="bg-navy-card border border-navy-border p-8">
@@ -68,7 +84,12 @@ export default function AboutPage() {
                 FOUNDERS · AURORA, COLORADO
               </p>
               <div className="space-y-2">
-                {["Every item personally inspected", "Cleaned before it's listed", "Priced lower than anywhere else", "Ships UPS to your door"].map((point) => (
+                {[
+                  "Every item personally inspected",
+                  "Cleaned before it's listed",
+                  "Priced lower than anywhere else",
+                  "Ships UPS to your door",
+                ].map((point) => (
                   <div key={point} className="flex items-center gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-brand-red shrink-0" />
                     <span className="text-white/60 text-sm">{point}</span>
@@ -140,7 +161,8 @@ export default function AboutPage() {
             WANT TO WORK WITH US?
           </h2>
           <p className="text-white/80 mb-8">
-            Have gear to donate, sell, or trade? We're always looking for good stuff.
+            Have gear to donate, sell, or trade? We&apos;re always looking for
+            good stuff.
           </p>
           <a
             href="mailto:hudsonashweiner@gmail.com"
